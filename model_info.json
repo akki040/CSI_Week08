@@ -1,0 +1,17 @@
+{
+  "model_type": "RandomForestClassifier",
+  "accuracy": 0.86,
+  "feature_names": [
+    "Gender", "Married", "Education", "Self_Employed",
+    "ApplicantIncome", "LoanAmount", "Credit_History",
+    "Property_Area", "Loan_Amount_Term", "Dependents", "CoapplicantIncome"
+  ],
+  "top_features": ["Credit_History", "LoanAmount", "ApplicantIncome"],
+  "feature_importances": {
+    "Credit_History": 0.35,
+    "LoanAmount": 0.20,
+    "ApplicantIncome": 0.15,
+    "Education": 0.10,
+    "Married": 0.05
+  }
+}
